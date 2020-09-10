@@ -3,10 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hannah's Portfolio</title>
+    <title>Hannah Lee</title>
+    <!-- need a favicon -->
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Font Awesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- my css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Questrial Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Hello World</h1>
+    
+<!-- Navigation -->
+<!-- example 6 - center on mobile -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand d-none d-lg-inline-block" href="#">
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item"><h5>Who am I?</h5></a>
+            </li>
+            <li class="nav-item">
+                <a href="http://www.linkedin.com/in/hmlee949" target="_blank" class="nav-link m-2 menu-item"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="mailto: hmlee949@gmail.com" target="_blank" class="nav-link m-2 menu-item"><i class="fa fa-envelope"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron parallax">
+    <div class="jumboText">
+        <h1>Designing interfaces<br>for digital products</h1>
+        <hr class="my-4">
+        <p class="lead">I am Hannah,<br>UX/UI Designer and Mentor</p>
+        <a class="btn btn-lg" href="mailto: hmlee949@gmail.com" role="button">Let's Chat</a>
+    </div>
+</div>
+
+<!-- Case Study Cards -->
+<div class="cardContainer">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="images/lulu1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-title">Redesigned Lululemon Mobile Application</p>
+                  <p class="card-date">2020</p>
+                </div>
+              </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="images/pilates1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Redesigned Pilates Studio Application</p>
+                    <p class="card-date">2020</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="images/SOTG1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Reimagined Mobile Survey Application</p>
+                    <p class="card-date">2019</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="images/yavo1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Responsive Design for E-commerce Web and Mobile</p>
+                    <p class="card-date">2019</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="images/CNP1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Developmenet of Consumer Network Platform</p>
+                    <p class="card-date">2018</p>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="container py-5">
+    <div class="row">
+        <div class="col-12 col-md">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <small class="d-block mb-3 text-muted">© 2020</small>
+        </div>
+        <div class="col-6 col-md col-sm-12">
+            <h5>Case Studies</h5>
+            <ul>
+                <li><a href="#">Lululemon</a></li>
+                <li><a href="#">Pilates Studio</a></li>
+                <li><a href="#">Mobile Survey</a></li>
+                <li><a href="#">Responsive Design</a></li>
+                <li><a href="#">Consumer Network Platform</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-md col-sm-12 social">
+            <h5>Social Media</h5>
+            <ul>
+                <li class="socialMedia"><a href="http://www.behance.net/hmlee949"><i class="fa fa-behance"></i></a></li>
+                <li class="socialMedia"><a href="http://www.dribbble.com/hmlee949"><i class="fa fa-dribbble"></i></a></li>
+                <li class="socialMedia"><a href="http://www.linkedin.com/in/hmlee949"><i class="fa fa-linkedin"></i></a></li>
+                <li class="socialMedia"><a href="mailto: hmlee949@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>

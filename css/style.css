@@ -1,3 +1,156 @@
-h1{
-    color: blue;
+body {
+    background-color: #103552;
+}
+
+.navbar {
+    background-color: #103552;
+}
+
+.navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+a.nav-link, h5 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+}
+
+.nav-item {
+    max-height: 55px;
+}
+
+.navbar-toggler {
+    border: none;
+    margin-top: 5px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+  }
+
+.fa {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.lead {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.my-4 {
+    border-top: 1px solid white;
+    width: 600px;
+    text-align: left;
+    margin: 0;
+}
+
+.jumbotron {
+    height: 98%;
+    background-image: url(../images/hero-green@2x.png);
+    background-size: cover;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.parallax {
+    min-height: 1100px;
+
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.jumboText {
+    margin-top: 300px;
+}
+
+.jumboText .lead {
+    font-size: 48px;
+}
+
+.btn.btn-lg {
+    background-color: #E76F51;
+    border-color: #F4A261;
+    color: white;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.cardContainer {
+    background-color: #103552;
+    padding-top: 50px;
+    margin: 0 20%;
+}
+
+.card {
+    margin: 25px 10px;
+    border-color: #103552;
+}
+
+.card-body {
+    background-color: #FBEBDE;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family: 'Questrial', sans-serif;
+    color: #103552;
+}
+
+.card-date {
+    font-family: 'Raleway', sans-serif;
+    color: #2A9D8F;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #103552;
+    margin-top: 85.5px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social ul {
+    width: 150px;
+}
+
+.socialMedia {
+    display: inline-block;
+    padding: 10px 0 100px 0;
+    margin-right: 10%;
 }
