@@ -78,7 +78,7 @@ h1 {
 }
 
 .jumboText .lead {
-    font-size: 48px;
+   font-size: 48px;
 }
 
 .btn.btn-lg {
@@ -94,10 +94,13 @@ h1 {
     margin: 0 50px;
 }
 
+.content-container {
+    margin: 0 10%;
+}
+
 .cardContainer {
     background-color: #103552;
     padding-top: 50px;
-    margin: 0 20%;
 }
 
 .card {
@@ -106,18 +109,17 @@ h1 {
 }
 
 .card-body {
-    background-color: #FBEBDE;
-    border-radius: 10px;
+    background-color: #2A9D8F;
 }
 
 .card-title {
     font-family: 'Questrial', sans-serif;
-    color: #103552;
+    color: #ffffff;
 }
 
 .card-date {
     font-family: 'Raleway', sans-serif;
-    color: #2A9D8F;
+    color: #103552;
 }
 
 .card-img-top {
@@ -153,4 +155,58 @@ footer a {
     display: inline-block;
     padding: 10px 0 100px 0;
     margin-right: 10%;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    
+    .jumbotron {
+        background-image: url(../images/hero-dark@2x.png);
+        background-size: cover;
+    }
+    
+    .jumboText {
+        margin-top: 200px;
+    }
+    
+    .parallax {
+        min-height: 600px;
+    }
+    
+    .my-4 {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .jumboText .lead {
+        font-size: 24px;
+     }
+
+     .content-container {
+         margin: 0;
+     }
+      
+     .col-sm-12 {
+         padding: 0;
+     }
+
+     .card-img-top {
+        height: 50vw;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    .social, .CStudies {
+        margin-top: 25px;
+    }
+
+    .socialMedia {
+        padding: 0;
+    }
 }
