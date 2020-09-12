@@ -162,8 +162,10 @@ footer a {
 @media only screen and (max-width: 600px) {
     
     .jumbotron {
-        background-image: url(../images/hero-dark@2x.png);
+        background-image: url(../images/hero-dark-trim@2x.png);
         background-size: cover;
+        background-repeat: no-repeat;
+
     }
     
     .jumboText {
