@@ -17,9 +17,19 @@ body {
     width: 50px;
 }
 
-a.nav-link, h5 {
+a.nav-link {
     font-family: 'Questrial', sans-serif;
-    color: white;
+}
+
+#about {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #E9C46A !important;
+    text-decoration: none;
 }
 
 .nav-item {
@@ -48,7 +58,8 @@ h1 {
 
 .lead {
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
 }
 
 .my-4 {
@@ -78,13 +89,14 @@ h1 {
 }
 
 .jumboText .lead {
-   font-size: 48px;
+   font-size: 36px;
 }
 
 .btn.btn-lg {
     background-color: #E76F51;
     border-color: #F4A261;
     color: white;
+    font-family: 'Questrial', sans-serif;
 }
 
 .row {
@@ -115,10 +127,12 @@ h1 {
 .card-title {
     font-family: 'Questrial', sans-serif;
     color: #ffffff;
+    font-size: 18px;
 }
 
 .card-date {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
     color: #103552;
 }
 
@@ -142,9 +156,16 @@ footer li{
     list-style: none;
 }
 
+h5 {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
 footer a {
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
 }
 
 .social ul {
@@ -165,17 +186,16 @@ footer a {
         background-image: url(../images/hero-dark-trim@2x.png);
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     
     .jumboText {
-        margin-top: 200px;
+        margin-top: 30%;
     }
     
     .parallax {
         min-height: 600px;
     }
-    
+
     .my-4 {
         width: 250px;
     }
